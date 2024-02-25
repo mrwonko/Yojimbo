@@ -1,6 +1,6 @@
 # Reverse Engineering progress
 
-## The Twonkie Detour
+## The Twonkie Detour, or: if you want to take a photo, you must first compile the Linux Kernel
 
 I bought prebuilt [Twonkie](https://github.com/dojoe/Twonkie) v2 hardware. I'm trying to use it in a WSL 2 Ubuntu to capture USB traffic between two proprietary devices.
 
@@ -196,3 +196,5 @@ The one that doesn't work lacks A2/A3 (TX1+/-) A5 (CC1) A10/A11 (RX2-/+) and the
 ## Fine, I'll do it myself
 
 New approach. Let's attach a knock-off 16 channel logic analyzer to the USB-C pins. I'll need some way to attach the probes. A cursory search found no off-the-shelf solutions, but a custom PCB with simple pin headers should do nicely. I'm now designing that.
+
+I'm done with the design, but have since found an off-the-shelf solution. The search term that got me there was "USB 3.1 Type-C Male Female Test PCB Board Adapter". Let's give that a try.
